@@ -15,6 +15,9 @@
 		DB9B8C0A25D9F7C40007E97D /* BuildNetflix2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B8C0925D9F7C40007E97D /* BuildNetflix2UITests.swift */; };
 		DB9B8C1B25D9F9B50007E97D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B8C1A25D9F9B50007E97D /* HomeView.swift */; };
 		DB9B8C2625D9FD990007E97D /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DB9B8C2525D9FD990007E97D /* KingfisherSwiftUI */; };
+		DB9B8C2B25D9FE1E0007E97D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B8C2A25D9FE1E0007E97D /* Movie.swift */; };
+		DBBB34F825DCBF9A004F68FE /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB34F725DCBF9A004F68FE /* StandardHomeMovie.swift */; };
+		DBBB34FD25DCC011004F68FE /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB34FC25DCC011004F68FE /* GlobalHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		DB9B8C0925D9F7C40007E97D /* BuildNetflix2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildNetflix2UITests.swift; sourceTree = "<group>"; };
 		DB9B8C0B25D9F7C40007E97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB9B8C1A25D9F9B50007E97D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DB9B8C2A25D9FE1E0007E97D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DBBB34F725DCBF9A004F68FE /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
+		DBBB34FC25DCC011004F68FE /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +112,6 @@
 				DB9B8BF025D9F7C40007E97D /* Assets.xcassets */,
 				DB9B8BF525D9F7C40007E97D /* Info.plist */,
 				DB9B8BF225D9F7C40007E97D /* Preview Content */,
-				DB9B8C1A25D9F9B50007E97D /* HomeView.swift */,
 			);
 			path = BuildNetflix2;
 			sourceTree = "<group>";
@@ -140,6 +145,10 @@
 		DB9B8C1F25D9F9CB0007E97D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DB9B8C1A25D9F9B50007E97D /* HomeView.swift */,
+				DB9B8C2A25D9FE1E0007E97D /* Movie.swift */,
+				DBBB34F725DCBF9A004F68FE /* StandardHomeMovie.swift */,
+				DBBB34FC25DCC011004F68FE /* GlobalHelpers.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -286,8 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBB34FD25DCC011004F68FE /* GlobalHelpers.swift in Sources */,
 				DB9B8C1B25D9F9B50007E97D /* HomeView.swift in Sources */,
 				DB9B8BEF25D9F7C10007E97D /* ContentView.swift in Sources */,
+				DBBB34F825DCBF9A004F68FE /* StandardHomeMovie.swift in Sources */,
+				DB9B8C2B25D9FE1E0007E97D /* Movie.swift in Sources */,
 				DB9B8BED25D9F7C10007E97D /* BuildNetflix2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
