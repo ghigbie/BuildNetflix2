@@ -22,5 +22,6 @@ struct StandardHomeMovie: View {
 struct StandardHomeMovie_Previews: PreviewProvider {
     static var previews: some View {
         StandardHomeMovie(movie: exampleMovie1)
+            .frame(width: 200, height: 300)
     }
 }
